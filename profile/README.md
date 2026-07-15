@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="./otp-wordmark.svg" alt="otp" height="34">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./otp-logo-dark.svg">
+    <img src="./otp-logo-light.svg" alt="otp.com" height="34">
+  </picture>
 </p>
 
 <p align="center">
