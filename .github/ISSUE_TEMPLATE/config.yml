@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/otp-com/.github/blob/main/SECURITY.md
+    about: Do not open a public issue. Email security@otp.com.
+  - name: API docs & support
+    url: https://otp.com
+    about: Account, billing, and API questions.
