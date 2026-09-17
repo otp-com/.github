@@ -17,6 +17,14 @@ be overwritten on the next regeneration. For an API-surface change, open a PR ag
 (`openapi.yaml`); the SDKs regenerate from it. Bug fixes in generator config, templates, hand-written
 helpers, docs, or CI are always welcome directly in the SDK repos.
 
+## The mobile repos are distribution, not source
+
+`sdk-ios`, `sdk-android`, and `sdk-react-native` publish a binary built from a private repository.
+What you see in them is a front end for it: package manifests pointing at a released artifact, the
+documentation, and for React Native a mirror of the bridge source. A PR against that mirror would be
+overwritten by the next release, for the same reason a PR against generated client code would be, so
+please open an issue instead. Documentation fixes are still worth raising; we will carry them back.
+
 ## Workflow
 
 1. Fork and branch from `main`.
