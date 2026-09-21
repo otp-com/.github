@@ -42,8 +42,8 @@ device you do not control is not proof; your backend exchanges that token with i
 | --- | --- |
 | [**sdk-ios**](https://github.com/otp-com/sdk-ios) | Official iOS SDK, via Swift Package Manager or CocoaPods. |
 | [**sdk-android**](https://github.com/otp-com/sdk-android) | Official Android SDK, from Maven Central. |
-| [**sdk-react-native**](https://github.com/otp-com/sdk-react-native) | Official React Native SDK, a bridge over the two above. |
-| [**sdk-flutter**](https://github.com/otp-com/sdk-flutter) | Official Flutter SDK, from pub.dev, a bridge over the two above. |
+| [**sdk-react-native**](https://github.com/otp-com/sdk-react-native) | Official React Native SDK, from npm, a bridge over the native SDKs. |
+| [**sdk-flutter**](https://github.com/otp-com/sdk-flutter) | Official Flutter SDK, from pub.dev, a bridge over the native SDKs. |
 
 ## Get started
 
